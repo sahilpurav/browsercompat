@@ -4,9 +4,9 @@
 Introducing super slick browser compatibility check module, built on the top of reliable MDN database.
 
 # Installation
-- Install the plugin with following command: `npm i @dwarf/browserlint --save-dev`
-- Open tslint.json and add code inside `rulesDirectory` option, `"node_modules/@dwarf/browserlint/dist"`
-For Angular project, it should look like this: `"rulesDirectory": ["codelyzer", "node_modules/@dwarf/browserlint/dist"],`
+- Install the plugin with following command: `npm i browserlint --save-dev`
+- Open tslint.json and add code inside `rulesDirectory` option, `"node_modules/browserlint/dist"`
+For Angular project, it should look like this: `"rulesDirectory": ["codelyzer", "node_modules/browserlint/dist"],`
 
 # Usage
 

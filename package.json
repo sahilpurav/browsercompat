@@ -1,5 +1,5 @@
 {
-  "name": "@dwarf/browserlint",
+  "name": "browserlint",
   "main": "browserlint.json",
   "author": "Sahil Purav",
   "contributors": [
