@@ -1,4 +1,13 @@
 {
+  "name": "@dwarf/browserlint",
+  "main": "browserlint.json",
+  "author": "Sahil Purav",
+  "contributors": [
+    "Joseph Da Silva",
+    "Sahil Purav"
+  ],
+  "license": "GPL-3.0",
+  "version": "1.0.0",
   "scripts": {
     "build": "rm -rf dist; tsc -p tsconfig.json",
     "lint": "tslint -p tsconfig.json",
@@ -21,9 +30,7 @@
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
   },
-  "name": "@dwarf/browserlint",
   "description": "[![CircleCI](https://circleci.com/gh/sahilpurav/browserlint.svg?style=svg)](https://circleci.com/gh/sahilpurav/browserlint)",
-  "version": "1.0.8",
   "directories": {
     "test": "tests"
   },
@@ -45,13 +52,6 @@
     "README.md",
     "browserlint.json"
   ],
-  "main": "browserlint.json",
-  "author": "Sahil Purav",
-  "contributors": [
-    "Joseph Da Silva",
-    "Sahil Purav"
-  ],
-  "license": "GPL-3.0",
   "bugs": {
     "url": "https://github.com/sahilpurav/browserlint/issues"
   },
