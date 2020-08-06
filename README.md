@@ -1,6 +1,6 @@
 [![CircleCI](https://circleci.com/gh/sahilpurav/browserlint.svg?style=svg)](https://circleci.com/gh/sahilpurav/browserlint)
 
-# (TSLint) Browser support compatibilty check
+# Browser compatibilty linter for TSLint
 Introducing super slick browser compatibility check module, built on the top of reliable MDN database.
 
 # Installation
@@ -14,7 +14,7 @@ Following is the schema needed to add inside tslint.json:
 
 ```
 "rules": {
-    "browserlint": {
+    "supported-browsers": {
         "options": {
             "targets": {
                 "ie": 11,

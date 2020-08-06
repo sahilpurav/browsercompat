@@ -23,7 +23,7 @@ import Whitelist from "./Whitelist";
 export class Rule extends Rules.TypedRule {
 
     public static metadata: IRuleMetadata = {
-        ruleName: "ts-is-browser-supported",
+        ruleName: "supported-browsers",
         type: "functionality",
         typescriptOnly: false,
         requiresTypeInfo: true,

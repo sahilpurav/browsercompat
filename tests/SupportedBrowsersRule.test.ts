@@ -3,7 +3,7 @@
 import CompatData from "../src/CompatData";
 import {IssueKind} from "../src/Issue";
 import IssueWithLocation from "../src/IssueWithLocation";
-import {parseTargets, parseWhitelist, Rule} from "../src/tsIsBrowserSupportedRule";
+import {parseTargets, parseWhitelist, Rule} from "../src/supportedBrowsersRule";
 import Version from "../src/Version";
 import Whitelist from "../src/Whitelist";
 
@@ -30,7 +30,7 @@ function executeRule(source: string, ruleArgs: any): readonly IssueWithLocation[
     const rule: Rule = new Rule({
         disabledIntervals: [],
         ruleArguments: [ruleArgs],
-        ruleName: "ts-is-browser-supported",
+        ruleName: "browserlint",
         ruleSeverity: "warning",
     });
     rule.applyWithProgram(sourceFile, program);
