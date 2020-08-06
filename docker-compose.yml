@@ -1,10 +1,10 @@
 version: "3.5"
 services:
-    browserlint:
+    browsercompat:
         build: .
-        image: dwarf/vault:browserlint
-        container_name: browserlint
-        working_dir: /app/browserlint
+        image: dwarf/vault:browsercompat
+        container_name: browsercompat
+        working_dir: /app/browsercompat
         volumes: 
-            - ./:/app/browserlint
+            - ./:/app/browsercompat
         command: /bin/sh -c "while sleep 1000; do :; done"

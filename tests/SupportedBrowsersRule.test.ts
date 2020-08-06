@@ -30,7 +30,7 @@ function executeRule(source: string, ruleArgs: any): readonly IssueWithLocation[
     const rule: Rule = new Rule({
         disabledIntervals: [],
         ruleArguments: [ruleArgs],
-        ruleName: "browserlint",
+        ruleName: "browsercompat",
         ruleSeverity: "warning",
     });
     rule.applyWithProgram(sourceFile, program);

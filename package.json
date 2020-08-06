@@ -1,6 +1,6 @@
 {
-  "name": "browserlint",
-  "main": "browserlint.json",
+  "name": "browsercompat",
+  "main": "browsercompat.json",
   "author": "Sahil Purav",
   "contributors": [
     "Joseph Da Silva",
@@ -30,13 +30,13 @@
     "tslint": "^6.0.0",
     "typescript": "^3.7.5"
   },
-  "description": "[![CircleCI](https://circleci.com/gh/sahilpurav/browserlint.svg?style=svg)](https://circleci.com/gh/sahilpurav/browserlint)",
+  "description": "[![CircleCI](https://circleci.com/gh/sahilpurav/browsercompat.svg?style=svg)](https://circleci.com/gh/sahilpurav/browsercompat)",
   "directories": {
     "test": "tests"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/sahilpurav/browserlint.git"
+    "url": "git+https://github.com/sahilpurav/browsercompat.git"
   },
   "keywords": [
     "browser",
@@ -50,10 +50,10 @@
     "LICENSE",
     "package.json",
     "README.md",
-    "browserlint.json"
+    "browsercompat.json"
   ],
   "bugs": {
-    "url": "https://github.com/sahilpurav/browserlint/issues"
+    "url": "https://github.com/sahilpurav/browsercompat/issues"
   },
-  "homepage": "https://github.com/sahilpurav/browserlint#readme"
+  "homepage": "https://github.com/sahilpurav/browsercompat#readme"
 }
