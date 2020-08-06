@@ -1,0 +1,59 @@
+{
+  "scripts": {
+    "build": "rm -rf dist; tsc -p tsconfig.json",
+    "lint": "tslint -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "test": "jest"
+  },
+  "dependencies": {
+    "mdn-browser-compat-data": "1.0.34"
+  },
+  "devDependencies": {
+    "@types/jest": "^25.1.4",
+    "@types/node": "^12.0.0",
+    "jest": "^26.2.2",
+    "ts-jest": "^26.1.4",
+    "tslint": "^6.1.0",
+    "tslint-sonarts": "^1.9.0",
+    "typescript": "^3.8.3"
+  },
+  "peerDependencies": {
+    "tslint": "^6.0.0",
+    "typescript": "^3.7.5"
+  },
+  "name": "@dwarf/browserlint",
+  "description": "[![CircleCI](https://circleci.com/gh/sahilpurav/browserlint.svg?style=svg)](https://circleci.com/gh/sahilpurav/browserlint)",
+  "version": "1.0.8",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahilpurav/browserlint.git"
+  },
+  "keywords": [
+    "browser",
+    "compatibility",
+    "typescript",
+    "javascript",
+    "tslint"
+  ],
+  "files": [
+    "dist/*.js",
+    "LICENSE",
+    "package.json",
+    "README.md",
+    "browserlint.json"
+  ],
+  "main": "browserlint.json",
+  "author": "Sahil Purav",
+  "contributors": [
+    "Joseph Da Silva",
+    "Sahil Purav"
+  ],
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/sahilpurav/browserlint/issues"
+  },
+  "homepage": "https://github.com/sahilpurav/browserlint#readme"
+}

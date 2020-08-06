@@ -1,0 +1,19 @@
+{
+    "files": [
+        "src/tsIsBrowserSupportedRule.ts"
+    ],
+    "compilerOptions": {
+        "outDir": "./dist",
+        "strict": true,
+        "alwaysStrict": true,
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noFallthroughCasesInSwitch": true,
+        "noEmitOnError": true,
+        "target": "ES2015",
+        "module": "CommonJS",
+        "moduleResolution": "Node"
+    }
+}

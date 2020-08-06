@@ -1,0 +1,10 @@
+version: "3.5"
+services:
+    browserlint:
+        build: .
+        image: dwarf/vault:browserlint
+        container_name: browserlint
+        working_dir: /app/browserlint
+        volumes: 
+            - ./:/app/browserlint
+        command: /bin/sh -c "while sleep 1000; do :; done"

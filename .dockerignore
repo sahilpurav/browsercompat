@@ -1,0 +1,7 @@
+# code binaries
+node_modules
+npm-debug.log
+
+# docs
+*.md
+*.txt
