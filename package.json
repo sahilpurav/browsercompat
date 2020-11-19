@@ -7,7 +7,7 @@
     "Sahil Purav"
   ],
   "license": "GPL-3.0",
-  "version": "0.0.2",
+  "version": "1.0.0",
   "scripts": {
     "build": "rm -rf dist; tsc -p tsconfig.json",
     "lint": "tslint -p tsconfig.json",
