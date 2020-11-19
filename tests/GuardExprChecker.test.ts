@@ -1,5 +1,3 @@
-/* tslint:disable no-big-function max-line-length no-duplicate-string mccabe-complexity cognitive-complexity max-classes-per-file */
-
 import GuardExprChecker, {GuardExprChain, GuardExpression} from "../src/GuardExprChecker";
 import TestTSCompilerHost from "./TestTSCompilerHost";
 
