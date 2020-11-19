@@ -1,5 +1,3 @@
-/* tslint:disable no-big-function max-line-length no-duplicate-string mccabe-complexity cognitive-complexity object-literal-key-quotes */
-
 import ClientCompatCheckerFlags from "../src/ClientCompatCheckerFlags";
 import ClientCompatIssueList from "../src/ClientCompatIssueList";
 import ClientInfo from "../src/ClientInfo";

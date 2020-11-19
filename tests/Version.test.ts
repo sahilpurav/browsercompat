@@ -1,5 +1,3 @@
-/* tslint:disable no-big-function max-line-length no-duplicate-string mccabe-complexity cognitive-complexity */
-
 import Version from "../src/Version";
 
 const maxMajor: number = Version.MAX_MAJOR;

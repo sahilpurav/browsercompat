@@ -1,57 +1,29 @@
 {
-    "extends": [
-        "tslint:recommended",
-        "tslint-sonarts"
+  "extends": ["tslint:recommended"],
+  "rules": {
+    "object-literal-shorthand": false,
+    "no-useless-cast": false,
+    "object-literal-sort-keys": false,
+    "arrow-parens": false,
+    "prefer-for-of": false,
+    "prefer-optional": false,
+    "one-line": false,
+    "no-bitwise": false,
+    "no-console": [
+      true,
+      "debug",
+      "info",
+      "time",
+      "timeEnd",
+      "trace",
+      "log",
+      "error"
     ],
-    "rules": {
-        "member-ordering": [
-            true,
-            "fields-first"
-        ],
-        "object-literal-shorthand": false,
-        "no-useless-cast": false,
-        "parameters-max-number": [
-            true,
-            8
-        ],
-        "object-literal-sort-keys": false,
-        "arrow-parens": false,
-        "prefer-for-of": false,
-        "prefer-optional": false,
-        "one-line": false,
-        "no-bitwise": false,
-        "cognitive-complexity": [
-            true,
-            7
-        ],
-        "mccabe-complexity": [
-            true,
-            7
-        ],
-        "no-big-function": [
-            true,
-            30
-        ],
-        "no-console": [
-            true,
-            "debug",
-            "info",
-            "time",
-            "timeEnd",
-            "trace",
-            "log",
-            "error"
-        ],
-        "no-invalid-this": true,
-        "quotemark": [
-            true,
-            "double"
-        ],
-        "semicolon": [
-            true,
-            "always",
-            "ignore-bound-class-methods"
-        ],
-        "variable-name": false
-    }
+    "no-invalid-this": true,
+    "semicolon": [true, "always", "ignore-bound-class-methods"],
+    "variable-name": false
+  },
+  "linterOptions": {
+    "exclude": ["tests"]
+  }
 }
