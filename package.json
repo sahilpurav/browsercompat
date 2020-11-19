@@ -24,11 +24,11 @@
     "ts-jest": "^26.1.4",
     "tslint": "^6.1.0",
     "tslint-sonarts": "^1.9.0",
-    "typescript": "^3.8.3"
+    "typescript": "^4.0.5"
   },
   "peerDependencies": {
     "tslint": "^6.0.0",
-    "typescript": "^3.7.5"
+    "typescript": "^4.0.5"
   },
   "description": "[![CircleCI](https://circleci.com/gh/sahilpurav/browsercompat.svg?style=svg)](https://circleci.com/gh/sahilpurav/browsercompat)",
   "directories": {
